@@ -1,0 +1,18 @@
+{
+  "name": "Modified-I2Cdevlib-MPU6050",
+  "keywords": "gyroscope, accelerometer, sensor, i2cdevlib, i2c",
+  "description": "This is I2Cdevlib-MPU6050 library but with fixed headers for MotionApps20",
+  "include": "Arduino/MPU6050",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/the-glovecontroller-team/MPU6050.git"
+  },
+  "dependencies":
+  {
+    "name": "I2Cdevlib-Core",
+    "frameworks": "arduino"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
